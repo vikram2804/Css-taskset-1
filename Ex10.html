@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <div class="logo">Logo</div>
+    <div class="menu"> 
+        <a href="#">Home</a>  &nbsp;&nbsp;
+        <a href="#">Products</a>   &nbsp;&nbsp;
+        <a href="#">Services</a>    &nbsp;&nbsp;
+        <a href="#">About</a>     &nbsp;&nbsp;
+        <a href="#">Contact</a>   &nbsp;&nbsp;
+
+    </div>
+    <div class="f"> Feature </div>
+    <div class="cmain">
+        <div class="c">Column One </div>
+        <div class="c">Column Two </div>
+        <div class="c">Column Three </div>
+
+    </div>
+
+    <div class="footer"> &copy;Copyright 2011</div>
+    </div>
+    <style>
+        .main
+        {
+            display: flex;
+            gap:10px;
+            flex-direction: column;
+        }
+        .logo
+        {
+            width:100%;
+            height:60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgray;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .menu
+        {
+            width:100%;
+            height:75px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a
+        {
+            color:purple;
+        }
+        .f
+        {
+            width:100%;
+            height:180px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: lightgray;
+        }
+        .cmain
+        {
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap:20px;
+        }
+        .c
+        {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height:170px;
+            width:32%;
+            background-color: lightgray;
+
+        }
+        .footer
+        {
+            width:100%;
+            height:80px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</body>
+</html>
